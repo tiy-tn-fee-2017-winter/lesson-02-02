@@ -1,0 +1,26 @@
+.information-stack {
+  color: $c-text;
+  font-family: sans-serif;
+  text-transform: uppercase;
+
+  &__tag {
+    margin: 0;
+
+    font-weight: normal;
+  }
+
+  &__number {
+    margin: 0.2rem 0 0;
+    color: $c-primary;
+    font-size: 1.2rem;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    &--warning {
+      color: darken($c-warning, 20%);
+    }
+  }
+}
